@@ -4,11 +4,11 @@
 - name: Install software-properties-common
   apt: pkg=software-properties-common state=installed update_cache=true
 
-    # This is a fix to a bug where Kodi crashses on start
-  #- name: Add kodi repository 
-  #become: yes
-  #apt_repository: repo='deb http://http.debian.net/debian jessie-backports main' state=present
+- name: Add kodi repository 
+  become: yes
+  apt_repository: repo='deb http://http.debian.net/debian jessie-backports main' state=present
 
+    # This is a fix to a bug where Kodi crashses on start
     #- name: Install video drivers
     #  become: yes
     #  command: apt-get -t jessie-backports install xserver-xorg-video-intel
