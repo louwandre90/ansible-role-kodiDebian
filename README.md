@@ -1,6 +1,6 @@
 ansible-role-kodiDebian
 =========
-[![Travis](https://img.shields.io/travis/louwandre90/ansible-role-kodiDebian.svg?style=flat-square)](https://travis-ci.org/louwandre90/ansible-role-kodiDebian.svg?branch=master)
+[![Travis](https://img.shields.io/travis/louwandre90/ansible-role-kodiDebian.svg?style=flat-square)](https://travis-ci.org/louwandre90/ansible-role-kodiDebian)
 [![Ansible Role](https://img.shields.io/badge/role-louwandre90.kodiDebian-blue.svg?style=flat-square)](https://galaxy.ansible.com/louwandre90/kodiDebian/)
 
 PLEASE NOTE:
